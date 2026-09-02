@@ -1,0 +1,11 @@
+{
+  "name": "Unnamed Bus System Project",
+  "location": "Santa Cruz, CA",
+  "dates": "January 2022 – June 2022",
+  "category": "Not affiliated with UCSC",
+  "bullets": [
+    "Contributed to the creation of an integrated hardware and software system to track a transit bus's position and route, as well as provide a console for the bus driver to interact with the system",
+    "Designed and wrote the program flow for the driver console in C; uses a simplified state-machine design pattern that makes use of function pointers to encapsulate each state",
+    "Use CMake to cross compile for RP2040 on the Raspberry Pi Pico"
+  ]
+}

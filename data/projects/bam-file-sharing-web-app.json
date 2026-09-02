@@ -1,0 +1,12 @@
+{
+  "name": "BAM! File Sharing Web App",
+  "location": "Santa Cruz, CA",
+  "dates": "March 2022 – June 2022",
+  "category": "Introduction to Software Engineering",
+  "bullets": [
+    "A web app that allows devices to share files by fist-bumping; files are sent peer-to-peer via WebTorrent",
+    "Designed and wrote the back-end architecture and the logic for connecting two clients and sending files",
+    "Worked with a team using Scrum and followed Scrum principles; was also the Product Owner",
+    "Built with React, Express, NodeJS, and MongoDB (MERN Full-Stack)"
+  ]
+}

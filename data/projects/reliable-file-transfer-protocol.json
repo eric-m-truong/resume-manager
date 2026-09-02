@@ -1,0 +1,11 @@
+{
+  "name": "Reliable File Transfer Protocol",
+  "location": "Santa Cruz, CA",
+  "dates": "January 2022 – March 2022",
+  "category": "Network Programming",
+  "bullets": [
+    "Created and implemented a protocol for reliable data transfer between a server and client via UDP",
+    "Can handle multiple clients concurrently",
+    "Improved performance by using a sliding window and buffering out of order packets"
+  ]
+}

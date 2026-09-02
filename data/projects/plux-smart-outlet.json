@@ -1,0 +1,12 @@
+{
+  "name": "Plux: Smart Outlet",
+  "location": "Santa Cruz, CA",
+  "dates": "January 2022 – June 2022",
+  "category": "Engineering Design Project",
+  "bullets": [
+    "Worked with a team to create an IoT device that plugs into an outlet and allows for remote switching and monitoring of power consumption",
+    "Programmed an ESP32 to connect to WiFi and publish/receive MQTT messages; programmed in C++ with the Arduino IDE",
+    "Used Python to create an MQTT client that parses messages and writes to an SQLite3 database on an Oracle Cloud instance",
+    "Designed the architecture and protocol for sending messages between the smart plug, server, and web-client"
+  ]
+}

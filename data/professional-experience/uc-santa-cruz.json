@@ -1,0 +1,14 @@
+{
+  "company": "UC Santa Cruz",
+  "location": "Santa Cruz, CA",
+  "title": "Embedded Systems Design Lab Tutor",
+  "dates": "September 2021 – November 2021",
+  "bullets": [
+    "Led 3 lab sections a week with 1-2 other tutors",
+    "Assisted around 20 students each section by answering questions and providing debugging advice",
+    "Taught students how to debug hardware with Oscilloscopes, Multimeters, LEDs, and LCD screens",
+    "Communicated effectively and concisely to ensure every student received assistance before the section ended",
+    "Helped students understand and use concepts such as RTOS, UART, DMA, ADC, DAC, PWM, etc",
+    "Performed check-offs and graded lab submissions while cross-referencing colleagues to ensure equal and fair grading among students"
+  ]
+}

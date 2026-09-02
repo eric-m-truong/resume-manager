@@ -1,32 +1,40 @@
 {
   "categories": [
     {
-      "name": "CI/CD & DevOps",
-      "skills": ["Jenkins", "Git", "Jira", "Confluence", "Helix", "Test Automation", "Hardware-in-the-loop (HIL/HITL)", "groovy"]
-    },
-    {
-      "name": "Yocto Project",
-      "skills": ["Bitbake", "Recipe writing (.bb/.bbappend)", "U-Boot", "Embedded Linux"]
-    },
-    {
-      "name": "Build Systems & OS",
-      "skills": ["RHEL", "Unix", "Linux", "Ubuntu", "Raspberry Pi OS", "FreeRTOS", "Poky"]
-    },
-    {
       "name": "Programming Languages",
-      "skills": ["C (8 years)", "C++ (5 years)", "Bash (6 years)", "Python (1 year)"]
+      "skills": ["C (7 years)", "C++ (4 years)", "Python (1 year)", "Shell scripting - bash and sh (5 years)", "Assembly for MIPS32 (3 months)", "JavaScript (3 months)"]
+    },
+    {
+      "name": "Operating Systems",
+      "skills": ["RHEL", "Unix", "Linux", "Ubuntu", "Raspberry Pi OS", "FreeRTOS", "Poky"]
     },
     {
       "name": "Single-board MCUs",
       "skills": ["PSoC-6", "ESP32", "i.MX 8M Nano"]
     },
     {
+      "name": "Virtualization",
+      "skills": ["VMware", "VirtualBox"]
+    },
+    {
+      "name": "Cloud Computing",
+      "skills": ["Oracle Cloud"]
+    },
+    {
+      "name": "Web servers",
+      "skills": ["Nginx"]
+    },
+    {
       "name": "Project Management",
       "skills": ["git", "Jira", "Confluence", "Helix"]
     },
     {
+      "name": "Yocto Project",
+      "skills": ["Bitbake", "Recipe writing (.bb + .bbappend)", "U-Boot"]
+    },
+    {
       "name": "Miscellaneous",
-      "skills": ["vim", "tmux", "ssh", "scp", "grep", "regex", "Oscilloscopes", "Multimeters"]
+      "skills": ["ssh", "scp", "vim", "tmux", "grep", "regex", "Jenkins", "Yocto Project", "Oscilloscopes", "Multimeters"]
     }
   ]
 }

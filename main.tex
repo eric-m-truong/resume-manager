@@ -152,17 +152,23 @@
   \resumeSubHeadingListStart
     \small{\item{
 
-        \textbf{Programming Languages:}{ C (8 years), C++ (5 years), Bash (6 years), Python (1 year)} \\ \vspace{3pt}
+        \textbf{Programming Languages:}{ C (7 years), C++ (4 years), Python (1 year), Shell scripting --- bash and sh (5 years), Assembly for MIPS32 (3 months), JavaScript (3 months)} \\ \vspace{3pt}
 
-        \textbf{CI/CD \& DevOps:}{ Jenkins, Git, Jira, Confluence, Helix, Test Automation, Hardware-in-the-loop (HIL/HITL), Groovy} \\ \vspace{3pt}
-
-        \textbf{Yocto Project:}{ Bitbake, Recipe writing (.bb/.bbappend), U-Boot, Embedded Linux} \\ \vspace{3pt}
-
-        \textbf{Build Systems \& OS:}{ RHEL, Unix, Linux, Ubuntu, Raspberry Pi OS, FreeRTOS, Poky} \\ \vspace{3pt}
+        \textbf{Operating Systems:}{ RHEL, Unix, Linux, Ubuntu, Raspberry Pi OS, FreeRTOS, Poky} \\ \vspace{3pt}
 
         \textbf{Single-board MCUs:}{ PSoC-6, ESP32, i.MX 8M Nano} \\ \vspace{3pt}
 
-        \textbf{Miscellaneous:}{ vim, tmux, ssh, scp, grep, regex, Oscilloscopes, Multimeters}
+        \textbf{Virtualization:}{ VMware, VirtualBox} \\ \vspace{3pt}
+
+        \textbf{Cloud Computing:}{ Oracle Cloud} \\ \vspace{3pt}
+
+        \textbf{Web servers:}{ Nginx} \\ \vspace{3pt}
+
+        \textbf{Project Management:}{ git, Jira, Confluence, Helix} \\ \vspace{3pt}
+
+        \textbf{Yocto Project:}{ Bitbake, Recipe writing (.bb + .bbappend), U-Boot} \\ \vspace{3pt}
+
+        \textbf{Miscellaneous:}{ ssh, scp, vim, tmux, grep, regex, Jenkins, Yocto Project, Oscilloscopes, Multimeters}
 
     }}
   \resumeSubHeadingListEnd
@@ -198,6 +204,27 @@
             \resumeItem{Developed, ported, and maintained Python-based Continuous Integration scripts.}
             \resumeItem{Brought up Hardware-in-the-Loop (HIL) lab systems, integrating Ubuntu bench machines and Raspberry Pis with Jenkins.}
             \resumeItem{Analyzed/triaged CI test failures every morning and created/updated Jira tickets to streamline development feedback loops.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {UC Santa Cruz}{Santa Cruz, CA}
+      {Embedded Systems Design Lab Tutor}{September 2021 \textbf{--} November 2021}
+        \resumeItemListStart
+            \resumeItem{Led 3 lab sections a week with 1-2 other tutors.}
+            \resumeItem{Assisted around 20 students each section by answering questions and providing debugging advice.}
+            \resumeItem{Taught students how to debug hardware with Oscilloscopes, Multimeters, LEDs, and LCD screens.}
+            \resumeItem{Communicated effectively and concisely to ensure every student received assistance before the section ended.}
+            \resumeItem{Helped students understand and use concepts such as RTOS, UART, DMA, ADC, DAC, PWM, etc.}
+            \resumeItem{Performed check-offs and graded lab submissions while cross-referencing colleagues to ensure equal and fair grading among students.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {San Jose Eyecare}{San Jose, CA}
+      {Optometric Technician}{June 2016 \textbf{--} September 2021 (Summers)}
+        \resumeItemListStart
+            \resumeItem{Operated diagnostic equipment.}
+            \resumeItem{Authorized and checked coverage of patient insurance.}
+            \resumeItem{Scheduled appointments, took calls, handled pickups, and other front-desk tasks.}
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -261,7 +288,53 @@
             \resumeItem{Implemented binary long division.}
           \resumeItemListEnd
 
+      \resumeProjectHeading
+        {\textbf{Plux: Smart Outlet} $|$ \emph{Engineering Design Project}}{January 2022 \textbf{--} June 2022}
+          \resumeItemListStart
+            \resumeItem{Worked with a team to create an IoT device that plugs into an outlet and allows for remote switching and monitoring of power consumption.}
+            \resumeItem{Programmed an ESP32 to connect to WiFi and publish/receive MQTT messages; programmed in C++ with the Arduino IDE.}
+            \resumeItem{Used Python to create an MQTT client that parses messages and writes to an SQLite3 database on an Oracle Cloud instance.}
+            \resumeItem{Designed the architecture and protocol for sending messages between the smart plug, server, and web-client.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Unnamed Bus System Project} $|$ \emph{Not affiliated with UCSC}}{January 2022 \textbf{--} June 2022}
+          \resumeItemListStart
+            \resumeItem{Contributed to the creation of an integrated hardware and software system to track a transit bus's position and route, as well as provide a console for the bus driver to interact with the system.}
+            \resumeItem{Designed and wrote the program flow for the driver console in C; uses a simplified state-machine design pattern that makes use of function pointers to encapsulate each state.}
+            \resumeItem{Use CMake to cross compile for RP2040 on the Raspberry Pi Pico.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{BAM! File Sharing Web App} $|$ \emph{Introduction to Software Engineering}}{March 2022 \textbf{--} June 2022}
+          \resumeItemListStart
+            \resumeItem{A web app that allows devices to share files by fist-bumping; files are sent peer-to-peer via WebTorrent.}
+            \resumeItem{Designed and wrote the back-end architecture and the logic for connecting two clients and sending files.}
+            \resumeItem{Worked with a team using Scrum and followed Scrum principles; was also the Product Owner.}
+            \resumeItem{Built with React, Express, NodeJS, and MongoDB (MERN Full-Stack).}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Reliable File Transfer Protocol} $|$ \emph{Network Programming}}{January 2022 \textbf{--} March 2022}
+          \resumeItemListStart
+            \resumeItem{Created and implemented a protocol for reliable data transfer between a server and client via UDP.}
+            \resumeItem{Can handle multiple clients concurrently.}
+            \resumeItem{Improved performance by using a sliding window and buffering out of order packets.}
+          \resumeItemListEnd
+
     \resumeSubHeadingListEnd
+
+
+
+%----------- HONORS -----------
+
+\section{Honors}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Tau Beta Pi (TBP), Member:}{ Santa Cruz (Fall 2022)}
+    }}
+  \resumeSubHeadingListEnd
 
 
 
