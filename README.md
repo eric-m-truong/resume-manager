@@ -1,18 +1,8 @@
-# arasgungore-CV
-
-My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact information, websites, education, experience, achievements, projects, and skills.
-
-Please find attached my [CV](https://drive.google.com/file/d/1TGwMpZl6FDeQk1w_-EetbspCuzu16kCF/view?usp=sharing). 😜
-
-
-
-## Run on Terminal
+## Build on Terminal
 
 ```sh
-pdflatex main.tex
+make all
 ```
-
-
 
 ## Screenshots
 
@@ -23,9 +13,10 @@ pdflatex main.tex
 
 
 
-## Author
-
-👤 **Aras Güngöre**
-
-* LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
-* GitHub: [@arasgungore](https://github.com/arasgungore)
+> **Forked from:**
+> _https://github.com/arasgungore/arasgungore-CV_  
+>
+> 👤 **Aras Güngöre**
+>
+> * LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
+> * GitHub: [@arasgungore](https://github.com/arasgungore)
