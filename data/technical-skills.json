@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "name": "CI/CD & DevOps",
+      "skills": ["Jenkins", "Git", "Jira", "Confluence", "Helix", "Test Automation", "Hardware-in-the-loop (HIL/HITL)", "groovy"]
+    },
+    {
+      "name": "Yocto Project",
+      "skills": ["Bitbake", "Recipe writing (.bb/.bbappend)", "U-Boot", "Embedded Linux"]
+    },
+    {
+      "name": "Build Systems & OS",
+      "skills": ["RHEL", "Unix", "Linux", "Ubuntu", "Raspberry Pi OS", "FreeRTOS", "Poky"]
+    },
+    {
+      "name": "Programming Languages",
+      "skills": ["C (8 years)", "C++ (5 years)", "Bash (6 years)", "Python (1 year)"]
+    },
+    {
+      "name": "Single-board MCUs",
+      "skills": ["PSoC-6", "ESP32", "i.MX 8M Nano"]
+    },
+    {
+      "name": "Project Management",
+      "skills": ["git", "Jira", "Confluence", "Helix"]
+    },
+    {
+      "name": "Miscellaneous",
+      "skills": ["vim", "tmux", "ssh", "scp", "grep", "regex", "Oscilloscopes", "Multimeters"]
+    }
+  ]
+}

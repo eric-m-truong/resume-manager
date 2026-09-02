@@ -1,0 +1,12 @@
+{
+  "company": "Western Digital Corporation",
+  "location": "Milpitas, CA",
+  "title": "Software Engineer",
+  "dates": "August 2022 – May 2023",
+  "bullets": [
+    "Brought up automated testing rigs that flash firmware builds onto physical SSDs and run functional tests (Pytest) without human intervention",
+    "Developed, ported, and maintained Python-based Continuous Integration scripts",
+    "Brought up Hardware-in-the-Loop (HIL) lab systems, integrating Ubuntu bench machines and Raspberry Pis with Jenkins",
+    "Analyzed/triaged CI test failures every morning and created/updated Jira tickets to streamline development feedback loops"
+  ]
+}

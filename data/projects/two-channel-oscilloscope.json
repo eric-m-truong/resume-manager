@@ -1,0 +1,13 @@
+{
+  "name": "Two Channel Oscilloscope",
+  "location": "Santa Cruz, CA",
+  "dates": "April 2021 – June 2021",
+  "category": "Embedded Systems Design",
+  "bullets": [
+    "Displayed waveforms and frequencies onto an LCD screen; supported vertical and horizontal scaling",
+    "Read voltage values on 2 GPIO pins using an ADC; data points transferred from ADC buffer to ping-pong buffers via DMA",
+    "Processing done on one of the ping-pong buffers to calculate frequencies, select appropriate data points to render, and detect triggers",
+    "User input enabled through knobs and command line; knobs are potentiometers whose voltage is monitored by the ADC, commands are sent over UART and parsed on the microcontroller",
+    "Designed for the PSoC-6 microcontroller and written in C"
+  ]
+}

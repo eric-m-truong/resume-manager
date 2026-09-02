@@ -1,0 +1,17 @@
+{
+  "company": "Cepheid",
+  "location": "Sunnyvale, CA",
+  "title": "Embedded Software Engineer",
+  "dates": "August 2023 – Present",
+  "bullets": [
+    "Maintained and enhanced Yocto Linux image to work with changing proprietary hardware and firmware requirements",
+    "Modified U-Boot stop string code to resemble a typical password prompt to enable intuitive developer/field tech access to U-Boot command line",
+    "Implemented a secure Chain of Trust across U-Boot and the Linux kernel; configured cryptographic image signing and verification to prevent unauthorized firmware execution",
+    "Modified Device Tree source files to adjust memory mapping as part of migration to new SOM",
+    "Designed and maintained Jenkins CI/CD pipelines to automate the building and archiving of C/C++ firmware, Yocto-based Linux images, and internal engineering tools",
+    "Engineered a fully automated flashing method for embedded Linux images on System on Modules (SOMs), eliminating manual bottlenecks and accelerating manufacturing processes by over 15x",
+    "Used Yocto Project to customize embedded Linux distributions and make them work with our processors and peripherals",
+    "Wrote robust C/C++ firmware for the GeneXpert modules (medical diagnostic machines); Asymmetric Multi-processing: 1 core FreeRTOS, 4 cores Embedded Linux; Debugging done via GDB over JTAG and/or via log files",
+    "Rolled out a remote firmware update process that can handle configuration, binaries, and Linux upgrades (implemented the on-device scripts)"
+  ]
+}

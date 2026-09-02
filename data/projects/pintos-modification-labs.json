@@ -1,0 +1,12 @@
+{
+  "name": "Pintos Modification Labs",
+  "location": "Santa Cruz, CA",
+  "dates": "January 2021 – March 2021",
+  "category": "Principles of Computer Systems Design",
+  "bullets": [
+    "Improved and implemented aspects of the Pintos operating system, including the ability to block threads, priority-based thread scheduling, and priority donation/inheritance",
+    "Worked with multi-threading and concurrency primitives",
+    "Implemented condition variables and locks using the pre-existing semaphore implementation",
+    "Debugging was performed with GDB"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Prime Number Detector",
+  "location": "Santa Cruz, CA",
+  "dates": "October 2020 – December 2020",
+  "category": "Logic Design",
+  "bullets": [
+    "Written in gate level Verilog for the Basys-3 FPGA",
+    "Determines whether a (16 bit) number is prime; if not, shows the least prime factor",
+    "Values shown on a 7-segment display",
+    "Implemented binary long division"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Quadruple Software UART",
+  "location": "Santa Cruz, CA",
+  "dates": "April 2021 – June 2021",
+  "category": "Embedded Systems Design",
+  "bullets": [
+    "Optimization exercise to implement four UARTs in software and on just the CM4 core",
+    "UARTs operated concurrently as tasks in FreeRTOS",
+    "Written in C for the PSoC-6 micro-controller"
+  ]
+}
